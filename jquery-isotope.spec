@@ -13,6 +13,7 @@ URL:		http://isotope.metafizzy.co/
 BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
+BuildRequires:	yuicompressor
 Requires:	jquery >= 1.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
